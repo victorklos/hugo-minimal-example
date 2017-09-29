@@ -4,6 +4,11 @@
 This is a _themeless_ minimal example for [Hugo](https://gohugo.io/).
 
 
+## What is included? What not?
+
+See [the example itself](content/_index.md). And just run it:
+
+
 ## Usage
 
 - clone this repo
