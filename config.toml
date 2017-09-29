@@ -1,0 +1,3 @@
+baseURL = ""
+title = "Hugo minimal example"
+disableKinds = ["taxonomy", "taxonomyTerm"]

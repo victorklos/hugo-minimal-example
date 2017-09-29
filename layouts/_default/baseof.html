@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name=author content="{{ .Params.Author }}">
+
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  </head>
+  <body>
+    {{ block "main" . }}
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- This is the default footer -->
+    <footer>
+    </footer>
+    {{ end }}
+  </body>
+</html>
+
