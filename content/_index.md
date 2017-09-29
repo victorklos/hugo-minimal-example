@@ -19,7 +19,7 @@ That is no theme, no menu, no tags, no categories, only the very basics.
 
 Well ok, it does have a shortcode:
 
-<!-- {{< youtube pjS4pOLyB7c >}} -->
+{{< youtube pjS4pOLyB7c >}}
 
 Enjoy!
 
