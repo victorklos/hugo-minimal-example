@@ -5,14 +5,15 @@
     <meta name=author content="{{ .Params.Author }}">
 
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
   </head>
   <body>
     {{ block "main" . }}
     {{ end }}
     {{ block "footer" . }}
     <!-- This is the default footer -->
-    <footer>
-    </footer>
+    <footer>Insert intelligent remark here</footer>
     {{ end }}
   </body>
 </html>

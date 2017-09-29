@@ -1,0 +1,30 @@
+/* flex trick for footer as per https://stackoverflow.com/a/20352949/1314725 */
+
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+  min-width: 400px;
+}
+
+header, footer {
+  background: #202020;
+  color: #cccccc;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+}
+
